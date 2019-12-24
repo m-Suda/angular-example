@@ -1,0 +1,7 @@
+<h1>Hello Angular State</h1>
+
+<ul>
+    <ng-container *ngFor="let chara of dataList$ | async">
+        <li>{{chara.name}}</li>
+    </ng-container>
+</ul>

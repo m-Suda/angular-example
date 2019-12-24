@@ -1,0 +1,7 @@
+<h2>お知らせ詳細</h2>
+<span>＜戻る</span>
+<ng-container *ngIf="newsDetail$ | async as newsDetail">
+    <div>タイトル：{{newsDetail.title}}</div>
+    <div>日付：{{newsDetail.date}}</div>
+    <div>内容：{{newsDetail.content}}</div>
+</ng-container>

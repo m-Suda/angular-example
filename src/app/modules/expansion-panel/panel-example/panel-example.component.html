@@ -1,0 +1,13 @@
+<h2>プリコネ - ギルド</h2>
+
+<mat-accordion>
+    <mat-expansion-panel [hideToggle]="true">
+        <mat-expansion-panel-header>
+            <mat-panel-title>美食殿</mat-panel-title>
+            <mat-icon>add_circle_outline</mat-icon>
+        </mat-expansion-panel-header>
+        <ng-container *ngFor="let charaName of bisyokuden">
+            <p>{{charaName}}</p>
+        </ng-container>
+    </mat-expansion-panel>
+</mat-accordion>

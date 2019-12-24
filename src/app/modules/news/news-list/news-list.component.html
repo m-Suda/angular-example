@@ -1,0 +1,7 @@
+<h2>お知らせ一覧</h2>
+
+<ul>
+    <ng-container *ngFor="let news of newsList$ | async">
+        <li (click)="openDetail(news)">{{news.title}}</li>
+    </ng-container>
+</ul>
