@@ -32,6 +32,11 @@ const routes: Routes = [
                 m => m.AngularStateInspectorModule
             ),
     },
+    {
+        path: 'translate-example',
+        loadChildren: () =>
+            import('./modules/ngx-translate/ngx-translate.module').then(m => m.NgxTranslateModule),
+    },
 ];
 
 @NgModule({

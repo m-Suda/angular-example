@@ -49,6 +49,7 @@ module.exports = {
         // これ許可してもいいのかなぁ…。
         'no-undef': 'off',
         // 変数名にアンダースコアを使用することを許可する。
-        'no-underscore-dangle': 'off'
+        'no-underscore-dangle': 'off',
+        'import/extensions': 'off',
     }
 };
